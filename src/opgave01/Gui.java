@@ -68,7 +68,7 @@ public class Gui extends Application {
             txfName.clear();
             txfTitle.clear();
             cbxSenior.setSelected(false);
-        } else {
+        } else { //Exercise 2: Show alert if fields are empty
             Alert alert = new Alert(Alert.AlertType.WARNING);
             alert.setTitle("Input Error");
             alert.setHeaderText(null);
