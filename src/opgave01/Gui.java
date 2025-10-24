@@ -11,7 +11,7 @@ public class Gui extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Opgave 4");
+        primaryStage.setTitle("Opgave 1");
 
         GridPane gridpane = new GridPane();
         initContent(gridpane);
